@@ -3,7 +3,7 @@ FROM ubuntu
 FROM node:7-onbuild
 
 # set maintainer
-LABEL maintainer "akv.tcs@gmail.com"
+LABEL maintainer "rk.tcs@gmail.com"
 
 # set a health check
 HEALTHCHECK --interval=5s \
